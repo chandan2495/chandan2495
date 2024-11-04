@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chandan Singh - Principal Engineer</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
@@ -14,6 +15,7 @@
             --accent-color: #e74c3c;
             --text-color: #333;
             --bg-color: #ecf0f1;
+            --card-bg-color: #fff;
         }
 
         * {
@@ -36,7 +38,7 @@
         }
 
         header {
-            background-color: var(--primary-color);
+            background: linear-gradient(135deg, #3498db, #2c3e50);
             color: #fff;
             padding: 2rem 0;
             text-align: center;
@@ -99,15 +101,16 @@
         }
 
         .card {
-            background-color: #fff;
+            background-color: var(--card-bg-color);
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 2rem;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
 
         .card h3 {
@@ -211,7 +214,7 @@
 
         .content {
             padding: 20px 30px;
-            background-color: #fff;
+            background-color: var(--card-bg-color);
             position: relative;
             border-radius: 6px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -307,7 +310,7 @@
                     <div class="content">
                         <h3>Senior Engineer III</h3>
                         <p>Commvault | Feb 2022 - March 2024</p>
-                        <p>Developed ChatGPT-based internal bots and led the transition of services to Kubernetes.</p>
+                        <p>Developed ChatGPT-based internal bots, architected Azure applications, and led the transition of services to Kubernetes.</p>
                     </div>
                 </div>
                 <div class="timeline-item left">
@@ -315,6 +318,27 @@
                         <h3>Senior Engineer II</h3>
                         <p>Commvault | Feb 2020 - Jan 2022</p>
                         <p>Enhanced sensitive data analysis capabilities and optimized pattern recognition algorithms.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content">
+                        <h3>Senior Engineer</h3>
+                        <p>Commvault | Nov 2018 - Jan 2020</p>
+                        <p>Integrated role-based permissions, expanded analytics product, and implemented hybrid approach for sensitive data identification.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="content">
+                        <h3>Engineer</h3>
+                        <p>Commvault | Nov 2016 - Oct 2018</p>
+                        <p>Developed versatile visualization tool and enhanced legacy visualization tool with advanced components.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content">
+                        <h3>Associate Software Engineer</h3>
+                        <p>Commvault | Jul 2015 - Oct 2016</p>
+                        <p>Full-stack developer for internal event management tool, focusing on RESTful APIs and SQL stored procedures.</p>
                     </div>
                 </div>
             </div>
